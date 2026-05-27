@@ -1,13 +1,12 @@
-import { test, expect } from '@playwright/test'
-import { LoginPage } from '../pages/LoginPage'
-const username = 'johnsmith26@gmail.com';
-const password = 'Learning@26'
+import { test, expect } from '../fixtures/baseTest'
 
-test('valid login test', async ({ page }) => {
+//const username = 'johnsmith26@gmail.com';
+//const password = 'Learning@26'
 
-    const loginPage = new LoginPage(page);
-    await loginPage.goto();
-    await loginPage.login(username, password);
+test('valid login test', async ({ page, loginPage }) => {
+
+    //await loginPage.goto();
+    //await loginPage.login(username, password);
 
     expect(await page.title()).toContain("Let's Shop");
 

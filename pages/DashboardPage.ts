@@ -22,6 +22,7 @@ export class DashboardPage {
 
     async searchProductAndAddToCart(productName: string) {
         await this.searchBox.fill(productName, { timeout: 3000 });
+        await this.page.waitForTimeout(3000);
         const count = await this.products.count();
         console.log(count);
 
