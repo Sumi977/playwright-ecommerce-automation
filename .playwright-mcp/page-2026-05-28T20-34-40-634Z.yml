@@ -1,0 +1,76 @@
+- generic [ref=e336]:
+  - banner [ref=e337]:
+    - generic [ref=e338]:
+      - generic [ref=e340]: Ecom
+      - generic [ref=e342]:
+        - link " dummywebsite@rahulshettyacademy.com" [ref=e344] [cursor=pointer]:
+          - /url: emailto:dummywebsite@rahulshettyacademy.com
+          - generic [ref=e345]: 
+          - text: dummywebsite@rahulshettyacademy.com
+        - generic [ref=e346]:
+          - link "" [ref=e347] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e348]: 
+          - link "" [ref=e349] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e350]: 
+          - link "" [ref=e351] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e352]: 
+          - link "" [ref=e353] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e354]: 
+  - generic [ref=e355]:
+    - generic [ref=e356]:
+      - heading "We Make Your Shopping Simple" [level=3]
+      - heading "Practice Website for Rahul Shetty Academy Students" [level=1] [ref=e357]:
+        - text: Practice Website for
+        - emphasis [ref=e358]: Rahul Shetty Academy
+        - text: Students
+      - link "Register" [ref=e359] [cursor=pointer]:
+        - /url: "#/auth/register"
+    - generic [ref=e361]:
+      - paragraph [ref=e362]:
+        - generic [ref=e363]: Register to sign in with your personal account
+      - generic [ref=e364]:
+        - heading "Log in" [level=1] [ref=e365]
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - generic [ref=e368]: Email
+            - textbox "email@example.com" [ref=e369]
+          - generic [ref=e370]:
+            - generic [ref=e371]: Password
+            - textbox "enter your passsword" [ref=e372]
+          - button "Login" [ref=e373] [cursor=pointer]
+        - link "Forgot password?" [ref=e374] [cursor=pointer]:
+          - /url: "#/auth/password-new"
+        - paragraph [ref=e375] [cursor=pointer]: Don't have an account? Register here
+  - generic [ref=e376]:
+    - heading "Why People Choose Us?" [level=1] [ref=e379]
+    - generic [ref=e380]:
+      - generic [ref=e381]:
+        - generic [ref=e383]: 
+        - generic [ref=e384]:
+          - heading "3546540" [level=1]
+          - paragraph [ref=e385]: Successfull Orders
+      - generic [ref=e386]:
+        - generic [ref=e388]: 
+        - generic [ref=e389]:
+          - heading "37653" [level=1]
+          - paragraph [ref=e390]: Customers
+      - generic [ref=e391]:
+        - generic [ref=e393]: 
+        - generic [ref=e394]:
+          - heading "3243" [level=1]
+          - paragraph [ref=e395]: Sellers
+    - generic [ref=e396]:
+      - generic [ref=e397]:
+        - generic [ref=e399]: 
+        - generic [ref=e400]:
+          - heading "4500+" [level=1]
+          - paragraph [ref=e401]: Daily Orders
+      - generic [ref=e402]:
+        - generic [ref=e404]: 
+        - generic [ref=e405]:
+          - heading "500+" [level=1]
+          - paragraph [ref=e406]: Daily New Customer Joining

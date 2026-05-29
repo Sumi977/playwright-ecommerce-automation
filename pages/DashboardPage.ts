@@ -21,14 +21,13 @@ export class DashboardPage {
 
 
     async searchProductAndAddToCart(productName: string) {
-        await this.searchBox.fill(productName, { timeout: 3000 });
-        await this.page.waitForTimeout(3000);
+        await this.searchBox.fill(productName);
+        await this.products.first().waitFor({ state: 'visible', timeout: 3000 });
         const count = await this.products.count();
-        console.log(count);
 
         for (let i = 0; i < count; i++) {
             if (await this.products.nth(i).locator('b').textContent() === productName) {
-                await this.products.nth(i).locator('button', { hasText: ' Add To Cart' }).click();
+                await this.products.nth(i).locator('button', { hasText: 'Add To Cart' }).click();
                 break;
             }
         }
